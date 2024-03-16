@@ -1,0 +1,45 @@
+.mat-toolbar {
+    background: #ffcd8b;
+    color: rgb(0, 0, 0);
+    height: 70px;
+}
+
+h4 {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.mat-mdc-text-field-wrapper {
+    width: 100%;
+    font-size: 12px;
+}
+
+.tb {
+    display: flex;
+    justify-content: flex-end;
+    flex-grow: 1;
+}
+
+mat-toolbar {
+    height: 64px;
+    position: fixed;
+    z-index: 1;
+    width: 100% !important;
+}
+
+.tb {
+    display: flex;
+    align-items: center;
+}
+
+.shorter {
+    flex: 1;
+    max-width: 150px; 
+    margin-right: 10px; 
+    max-height: 55px;
+}
+
+a:hover {
+    color: #ff9100;
+    font-weight: bolder;
+}
